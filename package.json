@@ -1,0 +1,34 @@
+{
+  "name": "@lukemsc/homepage",
+  "description": "My linktree-like homepage",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://www.lukem.eu",
+  "author": {
+    "name": "Łukasz Wójcik",
+    "url": "https://www.lukaszwojcik.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukemsc/homepage.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukemsc/homepage/issues"
+  },
+  "keywords": [
+    "lukem_sc",
+    "homepage"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "0.12.1",
+    "clean-css": "4.2.3",
+    "html-minifier": "4.0.0",
+    "terser": "5.8.0"
+  }
+}

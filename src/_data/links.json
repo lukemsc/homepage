@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Watch on Twitch",
+    "url": "https://www.twitch.tv/lukem_sc",
+    "newWindow": true
+  },
+  {
+    "name": "Follow on Twitter",
+    "url": "https://www.twitter.com/lukem_sc",
+    "newWindow": true
+  },
+  {
+    "name": "Subscribe on YouTube",
+    "url":  "https://www.youtube.com/channel/UClF7JvARHE7XFcVZWpmndxw",
+    "newWindow": true
+  },
+  {
+    "name": "Add me on Steam",
+    "url": "https://steamcommunity.com/id/lukem_sc",
+    "newWindow": true
+  },
+  {
+    "name": "Add me on Xbox Live",
+    "url": "https://account.xbox.com/en-US/Profile?gamerTag=Lukemsc",
+    "newWindow": true
+  },
+  {
+    "name": "Add me on Nintendo Switch",
+    "url": "https://nin.codes/lukemsc",
+    "newWindow": true
+  },
+  {
+    "name": "Talk to me on Discord",
+    "url": "https://discord.com/users/194383973156126720",
+    "newWindow": true
+  }
+]

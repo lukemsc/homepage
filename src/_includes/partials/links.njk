@@ -1,0 +1,7 @@
+<div class="links">
+{% for link in links %}
+<a class="external" href="{{ link.url }}" {% if link.newWindow %}target="_blank" rel="noopener noreferrer"{% endif %}>
+  {{ link.name }}
+</a>
+{% endfor %}
+</div>
