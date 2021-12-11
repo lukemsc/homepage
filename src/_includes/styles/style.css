@@ -27,6 +27,7 @@ body {
 body,
 body * {
   transition: all 0.3s;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -75,14 +76,24 @@ a {
   text-shadow: 2px 0 2px #333, 0 -2px 2px #333, 0 2px 2px #333, -2px 0 2px #333;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 a.external {
   background: #2e9eff;
   color: #fff;
   border: 3px solid #333;
   text-decoration: none;
   display: block;
+  width: calc(50% - 10px);
   font-size: 18px;
   padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
 }
 
 a:not(.external) {
@@ -96,10 +107,6 @@ a:not(.external):focus {
   border-bottom-style: solid;
 }
 
-a.external:not(:last-child) {
-  margin: 18px 0;
-}
-
 a.external:hover,
 a.external:focus {
   background: #333;
@@ -109,8 +116,14 @@ a.external:focus {
 p {
   font-size: 14px;
   line-height: 1.5;
-  margin: 30px 0 0;
+  margin: 20px 0 0;
   padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  a.external {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -123,8 +136,8 @@ p {
     font-size: 14px;
   }
 
-  a.external:not(:last-child) {
-    margin: 12px 0;
+  a.external {
+    margin: 6px 0;
   }
 
   img {

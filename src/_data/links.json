@@ -1,5 +1,9 @@
 [
   {
+    "name": "Email me",
+    "url": "mailto:lukemsc@lukem.eu"
+  },
+  {
     "name": "Watch on Twitch",
     "url": "https://www.twitch.tv/lukem_sc",
     "newWindow": true
