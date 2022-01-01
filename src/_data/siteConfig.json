@@ -3,6 +3,7 @@
     "title": "@Lukem_sc",
     "description": "That guy from your Twitch chat. Links to my other profiles."
   },
+  "startYear": 2021,
   "favicons": {
     "svg": {
       "url": "/favicon.svg",
@@ -14,16 +15,6 @@
     "webmanifest": "/site.webmanifest",
     "main_color": "#005181",
     "display": "standalone"
-  },
-  "opengraph": {
-    "type": "website",
-    "description": "Building modern websites and web applications to empower people and help businesses grow.",
-    "image": "https://www.lukem.net/images/hotlink-ok/share-1200x630.jpg"
-  },
-  "twitter": {
-    "card": "summary_large_image",
-    "image": "https://www.lukem.net/images/hotlink-ok/share-1200x600.jpg",
-    "dnt": "on"
   },
   "mobileWebAppCapable": "yes"
 }
